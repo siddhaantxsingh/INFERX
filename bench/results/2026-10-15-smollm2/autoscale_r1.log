@@ -1,0 +1,17 @@
+[loaded /home/user/models/smollm2-135m-instruct-f16.gguf: 30 layers, d=576, vocab 49152, context 2048, 651.2 MB weights in memory, 2.70 s]
+[2m2026-10-15T23:24:11.423861Z[0m [32m INFO[0m [2mllm[0m[2m:[0m engine ready [3mcfg[0m[2m=[0mEngineConfig { block_size: 16, num_blocks: 160, max_batch_tokens: 256, max_seqs: 16, prefix_caching: true, poison_freed: false } [3mkv_mb[0m[2m=[0m117.9648 [3mweights_mb[0m[2m=[0m651.165696
+[2m2026-10-15T23:24:11.424671Z[0m [32m INFO[0m [2mllm[0m[2m:[0m listening on 127.0.0.1:36921
+2026/10/15 23:24:11 23:24:11.481 launched replica-1 (pid 25175, http://127.0.0.1:36921)
+2026/10/15 23:24:11 inferx listening on 127.0.0.1:18300 (policy prefix_affinity, 1 replicas)
+[loaded /home/user/models/smollm2-135m-instruct-f16.gguf: 30 layers, d=576, vocab 49152, context 2048, 651.2 MB weights in memory, 3.71 s]
+[2m2026-10-15T23:24:37.546892Z[0m [32m INFO[0m [2mllm[0m[2m:[0m engine ready [3mcfg[0m[2m=[0mEngineConfig { block_size: 16, num_blocks: 160, max_batch_tokens: 256, max_seqs: 16, prefix_caching: true, poison_freed: false } [3mkv_mb[0m[2m=[0m117.9648 [3mweights_mb[0m[2m=[0m651.165696
+[2m2026-10-15T23:24:37.557305Z[0m [32m INFO[0m [2mllm[0m[2m:[0m listening on 127.0.0.1:36623
+2026/10/15 23:24:37 23:24:37.589 launched replica-2 (pid 26094, http://127.0.0.1:36623)
+[loaded /home/user/models/smollm2-135m-instruct-f16.gguf: 30 layers, d=576, vocab 49152, context 2048, 651.2 MB weights in memory, 2.79 s]
+[2m2026-10-15T23:24:40.598970Z[0m [32m INFO[0m [2mllm[0m[2m:[0m engine ready [3mcfg[0m[2m=[0mEngineConfig { block_size: 16, num_blocks: 160, max_batch_tokens: 256, max_seqs: 16, prefix_caching: true, poison_freed: false } [3mkv_mb[0m[2m=[0m117.9648 [3mweights_mb[0m[2m=[0m651.165696
+[2m2026-10-15T23:24:40.599719Z[0m [32m INFO[0m [2mllm[0m[2m:[0m listening on 127.0.0.1:35289
+2026/10/15 23:24:40 23:24:40.641 launched replica-3 (pid 26239, http://127.0.0.1:35289)
+2026/10/15 23:26:44 23:26:44.482 draining replica-3
+2026/10/15 23:26:44 23:26:44.704 stopped replica-3
+2026/10/15 23:26:45 23:26:45.482 draining replica-2
+2026/10/15 23:26:45 23:26:45.665 stopped replica-2

@@ -1,0 +1,17 @@
+[loaded /home/user/models/smollm2-135m-instruct-f16.gguf: 30 layers, d=576, vocab 49152, context 2048, 651.2 MB weights in memory, 1.23 s]
+[2m2026-10-15T22:58:54.136828Z[0m [32m INFO[0m [2mllm[0m[2m:[0m engine ready [3mcfg[0m[2m=[0mEngineConfig { block_size: 16, num_blocks: 160, max_batch_tokens: 256, max_seqs: 16, prefix_caching: true, poison_freed: false } [3mkv_mb[0m[2m=[0m117.9648 [3mweights_mb[0m[2m=[0m651.165696
+[2m2026-10-15T22:58:54.138030Z[0m [32m INFO[0m [2mllm[0m[2m:[0m listening on 127.0.0.1:37653
+2026/10/15 22:58:54 22:58:54.143 launched replica-1 (pid 12031, http://127.0.0.1:37653)
+[loaded /home/user/models/smollm2-135m-instruct-f16.gguf: 30 layers, d=576, vocab 49152, context 2048, 651.2 MB weights in memory, 1.14 s]
+[2m2026-10-15T22:58:55.388855Z[0m [32m INFO[0m [2mllm[0m[2m:[0m engine ready [3mcfg[0m[2m=[0mEngineConfig { block_size: 16, num_blocks: 160, max_batch_tokens: 256, max_seqs: 16, prefix_caching: true, poison_freed: false } [3mkv_mb[0m[2m=[0m117.9648 [3mweights_mb[0m[2m=[0m651.165696
+[2m2026-10-15T22:58:55.445381Z[0m [32m INFO[0m [2mllm[0m[2m:[0m listening on 127.0.0.1:41341
+2026/10/15 22:58:55 22:58:55.459 launched replica-2 (pid 12148, http://127.0.0.1:41341)
+[loaded /home/user/models/smollm2-135m-instruct-f16.gguf: 30 layers, d=576, vocab 49152, context 2048, 651.2 MB weights in memory, 1.71 s]
+[2m2026-10-15T22:58:57.270006Z[0m [32m INFO[0m [2mllm[0m[2m:[0m engine ready [3mcfg[0m[2m=[0mEngineConfig { block_size: 16, num_blocks: 160, max_batch_tokens: 256, max_seqs: 16, prefix_caching: true, poison_freed: false } [3mkv_mb[0m[2m=[0m117.9648 [3mweights_mb[0m[2m=[0m651.165696
+[2m2026-10-15T22:58:57.270691Z[0m [32m INFO[0m [2mllm[0m[2m:[0m listening on 127.0.0.1:35951
+2026/10/15 22:58:57 22:58:57.307 launched replica-3 (pid 12224, http://127.0.0.1:35951)
+[loaded /home/user/models/smollm2-135m-instruct-f16.gguf: 30 layers, d=576, vocab 49152, context 2048, 651.2 MB weights in memory, 5.14 s]
+[2m2026-10-15T22:59:02.529109Z[0m [32m INFO[0m [2mllm[0m[2m:[0m engine ready [3mcfg[0m[2m=[0mEngineConfig { block_size: 16, num_blocks: 160, max_batch_tokens: 256, max_seqs: 16, prefix_caching: true, poison_freed: false } [3mkv_mb[0m[2m=[0m117.9648 [3mweights_mb[0m[2m=[0m651.165696
+[2m2026-10-15T22:59:02.529801Z[0m [32m INFO[0m [2mllm[0m[2m:[0m listening on 127.0.0.1:42431
+2026/10/15 22:59:02 22:59:02.552 launched replica-4 (pid 12343, http://127.0.0.1:42431)
+2026/10/15 22:59:02 inferx listening on 127.0.0.1:18300 (policy least_loaded, 4 replicas)

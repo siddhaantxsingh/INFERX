@@ -1,0 +1,215 @@
+{
+ "failed": 0,
+ "latency_ms_p50": 454.496,
+ "latency_ms_p99": 1700.302,
+ "prefix_cache_hit_ratio": 0.6630149591876553,
+ "requests_ok": 1243,
+ "requests_per_s": 30.649133602530412,
+ "seconds": 40.555795675,
+ "shed": 0,
+ "timeline": [
+  {
+   "clients": 16,
+   "completed": 3,
+   "t": 1
+  },
+  {
+   "clients": 16,
+   "completed": 15,
+   "t": 2
+  },
+  {
+   "clients": 16,
+   "completed": 33,
+   "t": 3
+  },
+  {
+   "clients": 16,
+   "completed": 38,
+   "t": 4
+  },
+  {
+   "clients": 16,
+   "completed": 35,
+   "t": 5
+  },
+  {
+   "clients": 16,
+   "completed": 26,
+   "t": 6
+  },
+  {
+   "clients": 16,
+   "completed": 33,
+   "t": 7
+  },
+  {
+   "clients": 16,
+   "completed": 41,
+   "t": 8
+  },
+  {
+   "clients": 16,
+   "completed": 18,
+   "t": 9
+  },
+  {
+   "clients": 16,
+   "completed": 36,
+   "t": 10
+  },
+  {
+   "clients": 16,
+   "completed": 32,
+   "t": 11
+  },
+  {
+   "clients": 16,
+   "completed": 36,
+   "t": 12
+  },
+  {
+   "clients": 16,
+   "completed": 35,
+   "t": 13
+  },
+  {
+   "clients": 16,
+   "completed": 33,
+   "t": 14
+  },
+  {
+   "clients": 16,
+   "completed": 33,
+   "t": 15
+  },
+  {
+   "clients": 16,
+   "completed": 29,
+   "t": 16
+  },
+  {
+   "clients": 16,
+   "completed": 35,
+   "t": 17
+  },
+  {
+   "clients": 16,
+   "completed": 22,
+   "t": 18
+  },
+  {
+   "clients": 16,
+   "completed": 37,
+   "t": 19
+  },
+  {
+   "clients": 16,
+   "completed": 24,
+   "t": 20
+  },
+  {
+   "clients": 16,
+   "completed": 24,
+   "t": 21
+  },
+  {
+   "clients": 16,
+   "completed": 30,
+   "t": 22
+  },
+  {
+   "clients": 16,
+   "completed": 42,
+   "t": 23
+  },
+  {
+   "clients": 16,
+   "completed": 34,
+   "t": 24
+  },
+  {
+   "clients": 16,
+   "completed": 37,
+   "t": 25
+  },
+  {
+   "clients": 16,
+   "completed": 46,
+   "t": 26
+  },
+  {
+   "clients": 16,
+   "completed": 36,
+   "t": 27
+  },
+  {
+   "clients": 16,
+   "completed": 26,
+   "t": 28
+  },
+  {
+   "clients": 16,
+   "completed": 48,
+   "t": 29
+  },
+  {
+   "clients": 16,
+   "completed": 25,
+   "t": 30
+  },
+  {
+   "clients": 16,
+   "completed": 37,
+   "t": 31
+  },
+  {
+   "clients": 16,
+   "completed": 26,
+   "t": 32
+  },
+  {
+   "clients": 16,
+   "completed": 19,
+   "t": 33
+  },
+  {
+   "clients": 16,
+   "completed": 26,
+   "t": 34
+  },
+  {
+   "clients": 16,
+   "completed": 24,
+   "t": 35
+  },
+  {
+   "clients": 16,
+   "completed": 33,
+   "t": 36
+  },
+  {
+   "clients": 16,
+   "completed": 27,
+   "t": 37
+  },
+  {
+   "clients": 16,
+   "completed": 29,
+   "t": 38
+  },
+  {
+   "clients": 16,
+   "completed": 26,
+   "t": 39
+  },
+  {
+   "clients": 16,
+   "completed": 38,
+   "t": 40
+  }
+ ],
+ "tokens_per_s": 490.3861376404866,
+ "ttft_ms_p50": 196.819,
+ "ttft_ms_p99": 1223.76
+}

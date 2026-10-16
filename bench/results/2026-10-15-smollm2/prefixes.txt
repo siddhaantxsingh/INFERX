@@ -1,0 +1,251 @@
+        abcs.remove(base)
+    explicit_c3_mros = [_c3_mro(base, abcs=abcs) for base in explicit_bases]
+    abstract_c3_mros = [_c3_mro(base, abcs=abcs) for base in abstract_bases]
+    other_c3_mros = [_c3_mro(base, abcs=abcs) for base in other_bases]
+    return _c3_merge(
+        [[cls]] +
+        explicit_c3_mros + abstract_c3_mros + other_c3_mros +
+        [explicit_bases] + [abstract_bases] + [other_bases]
+    )
+
+def _compose_mro(cls, types):
+    """Calculates the method resolution order for a given class *cls*.
+-----
+
+    # Method scheduling a coroutine object: create a task.
+
+    def create_task(self, coro, *, name=None, context=None):
+        raise NotImplementedError
+
+    # Methods for interacting with threads.
+
+    def call_soon_threadsafe(self, callback, *args, context=None):
+        raise NotImplementedError
+
+    def run_in_executor(self, executor, func, *args):
+        raise NotImplementedError
+
+    def set_default_executor(self, executor):
+        raise NotImplementedError
+
+    # Network I/O methods returning Futures.
+
+    async def getaddrinfo(self, host, port, *,
+-----
+            reduction.dump(prep_data, buf)
+            reduction.dump(process_obj, buf)
+        finally:
+            set_spawning_popen(None)
+
+        self.sentinel, w = forkserver.connect_to_new_process(self._fds)
+        # Keep a duplicate of the data pipe's write end as a sentinel of the
+        # parent process used by the child process.
+        _parent_w = os.dup(w)
+        self.finalizer = util.Finalize(self, util.close_fds,
+                                       (_parent_w, self.sentinel))
+        with open(w, 'wb', closefd=True) as f:
+            f.write(buf.getbuffer())
+-----
+    cache_len = cache.__len__  # get cache size without calling len()
+    lock = RLock()           # because linkedlist updates aren't threadsafe
+    root = []                # root of the circular doubly linked list
+    root[:] = [root, root, None, None]     # initialize by pointing to self
+
+    if maxsize == 0:
+
+        def wrapper(*args, **kwds):
+            # No caching -- just a statistics update
+            nonlocal misses
+            misses += 1
+            result = user_function(*args, **kwds)
+            return result
+
+    elif maxsize is None:
+
+        def wrapper(*args, **kwds):
+-----
+
+        This method unblocks any successor of each node in *nodes* for being returned
+        in the future by a call to "get_ready".
+
+        Raises :exec:`ValueError` if any node in *nodes* has already been marked as
+        processed by a previous call to this method, if a node was not added to the
+        graph by using "add" or if called without calling "prepare" previously or if
+        node has not yet been returned by "get_ready".
+        """
+
+        if self._ready_nodes is None:
+            raise ValueError("prepare() must be called first")
+
+        n2i = self._node2info
+-----
+    '\u06f7'   #  0xA8 -> EXTENDED ARABIC-INDIC DIGIT SEVEN
+    '\u06f8'   #  0xA9 -> EXTENDED ARABIC-INDIC DIGIT EIGHT
+    '\u06f9'   #  0xAA -> EXTENDED ARABIC-INDIC DIGIT NINE
+    '\u060c'   #  0xAB -> ARABIC COMMA
+    '\u061b'   #  0xAC -> ARABIC SEMICOLON
+    '\xad'     #  0xAD -> SOFT HYPHEN
+    '\u061f'   #  0xAE -> ARABIC QUESTION MARK
+    '\ufe81'   #  0xAF -> ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM
+    '\ufe8d'   #  0xB0 -> ARABIC LETTER ALEF ISOLATED FORM
+    '\ufe8e'   #  0xB1 -> ARABIC LETTER ALEF FINAL FORM
+    '\ufe8e'   #  0xB2 -> ARABIC LETTER ALEF FINAL FORM
+-----
+        Content-Transfer-Encoding or other headers to the message as
+        necessary.  The default encoding is Base64.
+
+        Any additional keyword arguments are passed to the base class
+        constructor, which turns them into parameters on the Content-Type
+        header.
+        """
+        _subtype = _what(_imagedata) if _subtype is None else _subtype
+        if _subtype is None:
+            raise TypeError('Could not guess image MIME subtype')
+        MIMENonMultipart.__init__(self, 'image', _subtype, policy=policy,
+                                  **_params)
+-----
+                 _encoder=encoders.encode_base64, *, policy=None, **_params):
+        """Create an image/* type MIME document.
+
+        _imagedata contains the bytes for the raw image data.  If the data
+        type can be detected (jpeg, png, gif, tiff, rgb, pbm, pgm, ppm,
+        rast, xbm, bmp, webp, and exr attempted), then the subtype will be
+        automatically included in the Content-Type header. Otherwise, you can
+        specify the specific image subtype via the _subtype parameter.
+
+        _encoder is a function which will perform the actual encoding for
+-----
+    '\x19'     #  0x0019 -> END OF MEDIUM
+    '\x1a'     #  0x001a -> SUBSTITUTE
+    '\x1b'     #  0x001b -> ESCAPE
+    '\x1c'     #  0x001c -> FILE SEPARATOR
+    '\x1d'     #  0x001d -> GROUP SEPARATOR
+    '\x1e'     #  0x001e -> RECORD SEPARATOR
+    '\x1f'     #  0x001f -> UNIT SEPARATOR
+    ' '        #  0x0020 -> SPACE
+    '!'        #  0x0021 -> EXCLAMATION MARK
+    '"'        #  0x0022 -> QUOTATION MARK
+    '#'        #  0x0023 -> NUMBER SIGN
+    '$'        #  0x0024 -> DOLLAR SIGN
+    '%'        #  0x0025 -> PERCENT SIGN
+    '&'        #  0x0026 -> AMPERSAND
+-----
+    0x00da: 0x250c,     #  BOX DRAWINGS LIGHT DOWN AND RIGHT
+    0x00db: 0x2588,     #  FULL BLOCK
+    0x00dc: 0x2584,     #  LOWER HALF BLOCK
+    0x00dd: 0x258c,     #  LEFT HALF BLOCK
+    0x00de: 0x2590,     #  RIGHT HALF BLOCK
+    0x00df: 0x2580,     #  UPPER HALF BLOCK
+    0x00e0: 0x03c9,     #  GREEK SMALL LETTER OMEGA
+    0x00e1: 0x03ac,     #  GREEK SMALL LETTER ALPHA WITH TONOS
+    0x00e2: 0x03ad,     #  GREEK SMALL LETTER EPSILON WITH TONOS
+    0x00e3: 0x03ae,     #  GREEK SMALL LETTER ETA WITH TONOS
+    0x00e4: 0x03ca,     #  GREEK SMALL LETTER IOTA WITH DIALYTIKA
+-----
+FS      = 0x1c  # ^\
+GS      = 0x1d  # ^]
+RS      = 0x1e  # ^^
+US      = 0x1f  # ^_
+SP      = 0x20  # space
+DEL     = 0x7f  # delete
+
+controlnames = [
+"NUL", "SOH", "STX", "ETX", "EOT", "ENQ", "ACK", "BEL",
+"BS",  "HT",  "LF",  "VT",  "FF",  "CR",  "SO",  "SI",
+"DLE", "DC1", "DC2", "DC3", "DC4", "NAK", "SYN", "ETB",
+"CAN", "EM",  "SUB", "ESC", "FS",  "GS",  "RS",  "US",
+"SP"
+]
+
+def _ctoi(c):
+    if isinstance(c, str):
+        return ord(c)
+    else:
+        return c
+
+def isalnum(c): return isalpha(c) or isdigit(c)
+def isalpha(c): return isupper(c) or islower(c)
+-----
+            for node, predecessors in graph.items():
+                self.add(node, *predecessors)
+
+    def _get_nodeinfo(self, node):
+        if (result := self._node2info.get(node)) is None:
+            self._node2info[node] = result = _NodeInfo(node)
+        return result
+
+    def add(self, node, *predecessors):
+        """Add a new node and its predecessors to the graph.
+
+        Both the *node* and all elements in *predecessors* must be hashable.
+
+        If called multiple times with the same node argument, the set of dependencies
+        will be the union of all dependencies passed in.
+-----
+                hits += 1
+                return result
+            misses += 1
+            result = user_function(*args, **kwds)
+            cache[key] = result
+            return result
+
+    else:
+
+        def wrapper(*args, **kwds):
+            # Size limited caching that tracks accesses by recency
+            nonlocal root, hits, misses, full
+            key = make_key(args, kwds, typed)
+            with lock:
+                link = cache_get(key)
+                if link is not None:
+                    # Move the link to the front of the circular queue
+-----
+    '\ufb58'   #  0xB6 -> ARABIC LETTER PEH INITIAL FORM
+    '\ufe93'   #  0xB7 -> ARABIC LETTER TEH MARBUTA ISOLATED FORM
+    '\ufe95'   #  0xB8 -> ARABIC LETTER TEH ISOLATED FORM
+    '\ufe97'   #  0xB9 -> ARABIC LETTER TEH INITIAL FORM
+    '\ufb66'   #  0xBA -> ARABIC LETTER TTEH ISOLATED FORM
+    '\ufb68'   #  0xBB -> ARABIC LETTER TTEH INITIAL FORM
+    '\ufe99'   #  0xBC -> ARABIC LETTER THEH ISOLATED FORM
+    '\ufe9b'   #  0xBD -> ARABIC LETTER THEH INITIAL FORM
+    '\ufe9d'   #  0xBE -> ARABIC LETTER JEEM ISOLATED FORM
+    '\ufe9f'   #  0xBF -> ARABIC LETTER JEEM INITIAL FORM
+-----
+
+            # Mark the node as processed
+            nodeinfo.npredecessors = _NODE_DONE
+
+            # Go to all the successors and reduce the number of predecessors, collecting all the ones
+            # that are ready to be returned in the next get_ready() call.
+            for successor in nodeinfo.successors:
+                successor_info = n2i[successor]
+                successor_info.npredecessors -= 1
+                if successor_info.npredecessors == 0:
+                    self._ready_nodes.append(successor)
+            self._nfinished += 1
+
+    def _find_cycle(self):
+-----
+#
+
+class Popen(popen_fork.Popen):
+    method = 'forkserver'
+    DupFd = _DupFd
+
+    def __init__(self, process_obj):
+        self._fds = []
+        super().__init__(process_obj)
+
+    def duplicate_for_child(self, fd):
+        self._fds.append(fd)
+        return len(self._fds) - 1
+
+    def _launch(self, process_obj):
+        prep_data = spawn.get_preparation_data(process_obj._name)
+        buf = io.BytesIO()
+        set_spawning_popen(self)
+        try:
+            reduction.dump(prep_data, buf)
+            reduction.dump(process_obj, buf)
+        finally:
+            set_spawning_popen(None)
